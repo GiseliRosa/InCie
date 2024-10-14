@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4; /* Cor de fundo suave */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Use 100% da largura da página */
+    max-width: 400px; /* Limite a largura máxima para centralizar o conteúdo */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+  
+  .title {
+    color: #002F6C; /* Azul escuro da UVV */
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .inputGroup {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    margin-bottom: 5px;
+    color: #000000; 
+    font-weight: bold;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .button {
+    background-color: #002F6C; /* Azul escuro UVV */
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .forgotPassword {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .signupMessage {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .text {
+    color: #000000; 
+    font-weight: bold;
+  }
+  
+  .link {
+    color: #0092e6; 
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
